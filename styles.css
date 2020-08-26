@@ -3,7 +3,8 @@ body {
     font-family: Helvetica, sans-serif;
     color: rgb(225,225,255);
     background-image: url('galaxy.jpg');
-    background-size: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 #title {
