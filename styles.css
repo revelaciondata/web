@@ -6,8 +6,8 @@ body {
     background-color: rgb(225, 225, 225);
     font-family: Helvetica, sans-serif;
     color: rgb(225,225,255);
-    background-image: url('galaxy.jpg');
-    background-size: 100% 100%;
+    background-image: url('galaxia.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -36,6 +36,11 @@ body {
     font-style: italic;
     text-decoration: none;
     padding-left: 100px;
+}
+
+#reve {
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .slogan {
