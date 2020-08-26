@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: Helvetica, sans-serif;
+}
+
+#title {
+    font-size: 115px;
+    margin: 100px 0px 0px 30px;
+    padding: 0px;
+}
+
+#slogan {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left: 35px;
+}
+
+.quienes_somos {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: right;
+    margin: 150px 35px 0px 60%;
+} 
