@@ -4,8 +4,15 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
-section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #222; }
+section.has-light-background,
+section.has-light-background h1,
+section.has-light-background h2,
+section.has-light-background h3,
+section.has-light-background h4,
+section.has-light-background h5,
+section.has-light-background h6 {
+  color: #222;
+}
 
 /*********************************************
  * GLOBAL STYLES
@@ -33,32 +40,38 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --link-color: #42affa;
   --link-color-hover: #8dcffc;
   --selection-background-color: #bee4fd;
-  --selection-color: #fff; }
+  --selection-color: #fff;
+}
 
 .reveal-viewport {
   background: #000;
-  background-color: #000; }
+  background-color: #000;
+}
 
 .reveal {
-  font-family:  'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   font-weight: normal;
-  color: #fff; }
+  color: #fff;
+}
 
 .reveal ::selection {
   color: #fff;
   background: #bee4fd;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 .reveal ::-moz-selection {
   color: #fff;
   background: #bee4fd;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 .reveal .slides section,
 .reveal .slides section > section {
   line-height: 1.3;
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 /*********************************************
  * HEADERS
@@ -73,39 +86,45 @@ section.has-light-background, section.has-light-background h1, section.has-light
   color: #fff;
   font-family: 'Roboto Mono', monospace;
   text-shadow: none;
-  white-space: 2; 
-  letter-spacing: 0.25em;}
+  white-space: 2;
+  letter-spacing: 0.25em;
+}
 
 .reveal h1 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+}
 
 .reveal h2 {
-  font-size: 1.9em; }
+  font-size: 1.9em;
+}
 
 .reveal h3 {
-  font-size: 1.4em; }
+  font-size: 1.4em;
+}
 
 .reveal h4 {
-  font-size: 1.2em; 
+  font-size: 1.2em;
 }
 
 .reveal h5 {
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 .reveal h6 {
-  font-size: 0.8em; 
+  font-size: 0.8em;
 }
 
 .reveal h1 {
-  text-shadow: none; }
+  text-shadow: none;
+}
 
 /*********************************************
  * OTHER
  *********************************************/
 .reveal p {
   margin: 20px 0;
-  line-height: 1.3; }
+  line-height: 1.3;
+}
 
 /* Remove trailing margins after titles */
 .reveal h1:last-child,
@@ -114,53 +133,65 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h4:last-child,
 .reveal h5:last-child,
 .reveal h6:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
 .reveal video,
 .reveal iframe {
   max-width: 95%;
-  max-height: 95%; }
+  max-height: 95%;
+}
 
 .reveal strong,
 .reveal b {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .reveal em {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .reveal ol,
 .reveal dl,
 .reveal ul {
   display: inline-block;
   text-align: left;
-  margin: 0 0 0 1em; }
+  margin: 0 0 0 1em;
+}
 
 .reveal ol {
-  list-style-type: decimal; }
+  list-style-type: decimal;
+}
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: disc;
+}
 
 .reveal ul ul {
-  list-style-type: square; }
+  list-style-type: square;
+}
 
 .reveal ul ul ul {
-  list-style-type: circle; }
+  list-style-type: circle;
+}
 
 .reveal ul ul,
 .reveal ul ol,
 .reveal ol ol,
 .reveal ol ul {
   display: block;
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
 .reveal dt {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .reveal dd {
-  margin-left: 40px; }
+  margin-left: 40px;
+}
 
 .reveal blockquote {
   display: block;
@@ -170,14 +201,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
   padding: 5px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
 
 .reveal blockquote p:first-child,
 .reveal blockquote p:last-child {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .reveal q {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .reveal pre {
   display: block;
@@ -189,64 +223,78 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
 
 .reveal code {
   font-family: monospace;
-  text-transform: none; }
+  text-transform: none;
+}
 
 .reveal pre code {
   display: block;
   padding: 5px;
   overflow: auto;
   max-height: 400px;
-  word-wrap: normal; }
+  word-wrap: normal;
+}
 
 .reveal table {
   margin: auto;
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 .reveal table th {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .reveal table th,
 .reveal table td {
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid; }
+  border-bottom: 1px solid;
+}
 
-.reveal table th[align="center"],
-.reveal table td[align="center"] {
-  text-align: center; }
+.reveal table th[align='center'],
+.reveal table td[align='center'] {
+  text-align: center;
+}
 
-.reveal table th[align="right"],
-.reveal table td[align="right"] {
-  text-align: right; }
+.reveal table th[align='right'],
+.reveal table td[align='right'] {
+  text-align: right;
+}
 
 .reveal table tbody tr:last-child th,
 .reveal table tbody tr:last-child td {
-  border-bottom: none; }
+  border-bottom: none;
+}
 
 .reveal sup {
   vertical-align: super;
-  font-size: smaller; }
+  font-size: smaller;
+}
 
 .reveal sub {
   vertical-align: sub;
-  font-size: smaller; }
+  font-size: smaller;
+}
 
 .reveal small {
   display: inline-block;
   font-size: 0.6em;
   line-height: 1.2em;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .reveal small * {
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .reveal img {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 /*********************************************
  * LINKS
@@ -254,98 +302,122 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal a {
   color: #fff;
   text-decoration: none;
-  transition: color .15s ease; }
+  transition: color 0.15s ease;
+}
 
 .reveal a:hover {
   color: #fff;
   text-shadow: none;
-  border: none; }
+  border: none;
+}
 
 .reveal .roll span:after {
   color: #fff;
-  background: #068de9; }
+  background: #068de9;
+}
 
 /*********************************************
  * Frame helper
  *********************************************/
 .reveal .r-frame {
   border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
 
 .reveal a .r-frame {
-  transition: all .15s linear; }
+  transition: all 0.15s linear;
+}
 
 .reveal a:hover .r-frame {
   border-color: #42affa;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #42affa; }
+  color: #42affa;
+}
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #42affa; }
+  color: #42affa;
+}
 
 /*********************************************
  * PRINT BACKGROUND
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #191919; } }
-
+    background-color: #191919;
+  }
+}
 
 .reveal .mirrortext {
-    text-shadow: 0 0 0.15em #1da9cc;
-    user-select: none;
-    filter: blur(0.007em);
-    animation: shake 2.5s linear forwards;
-    animation-iteration-count: infinite;
+  text-shadow: 0 0 0.15em #1da9cc;
+  user-select: none;
+  filter: blur(0.007em);
+  animation: shake 2.5s linear forwards;
+  animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    5%, 15%, 25%, 35%, 55%, 65%, 75%, 95% {
-        filter: blur(0.018em);
-        transform: translateY(0.018em) rotate(0deg);
-    }
+  5%,
+  15%,
+  25%,
+  35%,
+  55%,
+  65%,
+  75%,
+  95% {
+    filter: blur(0.018em);
+    transform: translateY(0.018em) rotate(0deg);
+  }
 
-    10%, 30%, 40%, 50%, 70%, 80%, 90% {
-        filter: blur(0.01em);
-        transform: translateY(-0.018em) rotate(0deg);
-    }
+  10%,
+  30%,
+  40%,
+  50%,
+  70%,
+  80%,
+  90% {
+    filter: blur(0.01em);
+    transform: translateY(-0.018em) rotate(0deg);
+  }
 
-    20%, 60% {
-        filter: blur(0.03em);
-        transform: translate(-0.018em, 0.018em) rotate(0deg);
-    }
+  20%,
+  60% {
+    filter: blur(0.03em);
+    transform: translate(-0.018em, 0.018em) rotate(0deg);
+  }
 
-    45%, 85% {
-        filter: blur(0.03em);
-        transform: translate(0.018em, -0.018em) rotate(0deg);
-    }
+  45%,
+  85% {
+    filter: blur(0.03em);
+    transform: translate(0.018em, -0.018em) rotate(0deg);
+  }
 
-    100% {
-        filter: blur(0.007em);
-        transform: translate(0) rotate(-0.5deg);
-    }
+  100% {
+    filter: blur(0.007em);
+    transform: translate(0) rotate(-0.5deg);
+  }
 }
 
 .full {
-  height:100%;
-  width:100%;
+  height: 100%;
+  width: 100%;
 }
 
 .reveal .profile .avatar {
-   filter: brightness(80%);
+  filter: brightness(80%);
 }
 
-.reveal .profile a:hover .avatar{
-  border: 10px solid rgba(196,196,196,0.2); 
+.reveal .profile a:hover .avatar {
+  border: 10px solid rgba(196, 196, 196, 0.2);
   filter: brightness(100%);
 }
 
@@ -353,19 +425,20 @@ section.has-light-background, section.has-light-background h1, section.has-light
   mix-blend-mode: saturation;
 }
 
-@media screen and (min-width: 300px) and (max-width: 820px) and (min-height: 540px) and  (max-height: 1280px){
+@media screen and (min-width: 300px) and (max-width: 820px) and (min-height: 540px) and (max-height: 1280px) {
   .reveal {
-    font-family:  'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-size: 14px;
     font-weight: normal;
-    color: #fff; }
+    color: #fff;
+  }
 
   .reveal .display-none {
     display: none;
   }
   .reveal .value-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     flex-wrap: wrap;
     width: 90%;
   }
@@ -397,7 +470,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     line-height: 45px;
   }
 
-  .reveal #valores-description p{
+  .reveal #valores-description p {
     text-align: center;
     line-height: 15px;
     padding-top: 15px;
@@ -408,8 +481,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
     flex-wrap: wrap;
     width: 100%;
     margin-top: 15%;
-    justify-content:  space-around;
-  } 
+    justify-content: space-around;
+  }
   .reveal .profile {
     font-size: 16px;
     flex-grow: 2;
@@ -417,7 +490,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     min-width: 100px;
   }
   .reveal .profile .avatar {
-    width:70px;
+    width: 70px;
     border-radius: 50%;
   }
 
@@ -454,12 +527,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
     font-size: 16px;
     font-style: normal;
     margin-bottom: 0px;
-    font-weight: bold;;
+    font-weight: bold;
   }
 
   .reveal .description .subtitle {
     font-size: 16px;
-    margin-top: 2%;  
+    margin-top: 2%;
     font-style: normal;
     margin-bottom: 0px;
     font-weight: 100;
@@ -490,20 +563,20 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 600px)  and  (min-height: 300px) and  (max-height: 440px) {
+@media screen and (min-width: 400px) and (max-width: 600px) and (min-height: 300px) and (max-height: 440px) {
   .reveal .profile {
     flex-grow: 2;
     flex-basis: 50%;
     min-width: 100px;
   }
   .reveal .profile .avatar {
-    width:80px;
+    width: 80px;
     border-radius: 50%;
-    border: 16px solid rgba(196,196,196,0.4);
+    border: 16px solid rgba(196, 196, 196, 0.4);
   }
 }
 
-@media screen and (min-width: 600px) and  (min-height: 400px) {
+@media screen and (min-width: 600px) and (min-height: 400px) {
   .reveal .value-container {
     display: flex;
     justify-content: space-between;
@@ -533,7 +606,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     line-height: 70px;
   }
 
-  .reveal #valores-description p{
+  .reveal #valores-description p {
     text-align: right;
     line-height: 35px;
     padding-top: 15px;
@@ -547,7 +620,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     height: 80%;
     justify-content: center;
     align-items: center;
-  }  
+  }
 
   .reveal .profile {
     flex-grow: 1;
@@ -556,13 +629,40 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 
   .reveal .profile .avatar {
-    width:128px;
+    width: 128px;
     border-radius: 50%;
   }
 
- .reveal .whatwedo {
-    width: 60%;
-    margin-left: 4%;
+  .reveal .whatwedo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    height: 100%;
+    background: #16171d;
+  }
+
+  .reveal .whatwedo .moon {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+  }
+
+  .reveal .whatwedo .moon img {
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .reveal .whatwedo .info {
+    padding: 5rem 0;
+    width: 50%;
+    z-index: 1;
+    margin-right: 2rem;
   }
 
   .reveal .whatwedo h3 {
@@ -571,8 +671,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
     font-style: normal;
     font-weight: 200;
     letter-spacing: 0.3em;
-    line-height: 45px;
-    margin-top: 5%;
+    line-height: 25px;
+    margin-top: 10%;
   }
 
   .reveal .whatwedo .blackmark {
@@ -584,11 +684,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .reveal .description .title {
     font-style: normal;
     margin-bottom: 0px;
-    font-weight: bold;;
+    font-weight: bold;
   }
 
   .reveal .description .subtitle {
-    margin-top: 2%;  
+    margin-top: 2%;
     font-style: normal;
     margin-bottom: 0px;
     font-weight: 100;
@@ -618,7 +718,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 }
 
-@media screen and (min-width: 1024px) and  (min-height: 700px) {
+@media screen and (min-width: 1024px) and (min-height: 700px) {
   .reveal .value-container {
     display: flex;
     justify-content: space-between;
@@ -647,7 +747,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     line-height: 70px;
   }
 
-  .reveal #valores-description p{
+  .reveal #valores-description p {
     text-align: right;
     line-height: 35px;
     padding-top: 15px;
@@ -660,7 +760,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     height: 80%;
     justify-content: center;
     align-items: center;
-  }  
+  }
 
   .reveal .profile {
     flex-grow: 1;
@@ -669,7 +769,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 
   .reveal .profile .avatar {
-    width:156px;
+    width: 156px;
     border-radius: 50%;
   }
 
@@ -697,11 +797,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .reveal .description .title {
     font-style: normal;
     margin-bottom: 0px;
-    font-weight: bold;;
+    font-weight: bold;
   }
 
   .reveal .description .subtitle {
-    margin-top: 2%;  
+    margin-top: 2%;
     font-style: normal;
     margin-bottom: 0px;
     font-weight: 100;
@@ -734,7 +834,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 }
 
-@media screen and (min-width: 1600px) and  (min-height: 920px) {
+@media screen and (min-width: 1600px) and (min-height: 920px) {
   .reveal .value-container {
     display: flex;
     justify-content: space-between;
@@ -763,7 +863,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     line-height: 70px;
   }
 
-  .reveal #valores-description p{
+  .reveal #valores-description p {
     text-align: right;
     line-height: 35px;
     padding-top: 15px;
@@ -776,7 +876,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
     height: 80%;
     justify-content: center;
     align-items: center;
-  }  
+  }
   .reveal .profile {
     flex-grow: 1;
     flex-basis: 24%;
@@ -784,7 +884,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 
   .reveal .profile .avatar {
-    width:156px;
+    width: 156px;
     border-radius: 50%;
   }
 
@@ -812,11 +912,11 @@ section.has-light-background, section.has-light-background h1, section.has-light
   .reveal .description .title {
     font-style: normal;
     margin-bottom: 0px;
-    font-weight: bold;;
+    font-weight: bold;
   }
 
   .reveal .description .subtitle {
-    margin-top: 2%;  
+    margin-top: 2%;
     font-style: normal;
     margin-bottom: 0px;
     font-weight: 100;
@@ -854,13 +954,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   letter-spacing: 0.25em;
 }
 
-.reveal .profile .avatar border {
-}
-
 .reveal .bottom-info {
   bottom: 2%;
   width: 100%;
-  position:absolute;
+  position: absolute;
 }
 
 .reveal .container-full {
@@ -871,10 +968,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   justify-content: center;
   align-items: center;
   align-content: center;
-} 
+}
 
 .reveal .description {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .reveal .bottom-info .description .linkedin {
@@ -899,7 +996,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal .container-full .value-container .value-link h1:hover {
   color: #000;
-  background-color: rgba(255,255,255,0.0);
+  background-color: rgba(255, 255, 255, 0);
   font-weight: 600;
 }
 
@@ -921,10 +1018,151 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal html.dim .backgrounds {
-   -webkit-filter: blur(50px) saturate(.5) brightness(.8);
-   -moz-filter: blur(40px) saturate(.7) brightness(.9);
-   -o-filter: blur(40px) saturate(.7) brightness(.9);
-   -ms-filter: blur(40px) saturate(.7) brightness(.9);
-   filter: blur(40px) saturate(.7) brightness(.9);
+  -webkit-filter: blur(50px) saturate(0.5) brightness(0.8);
+  -moz-filter: blur(40px) saturate(0.7) brightness(0.9);
+  -o-filter: blur(40px) saturate(0.7) brightness(0.9);
+  -ms-filter: blur(40px) saturate(0.7) brightness(0.9);
+  filter: blur(40px) saturate(0.7) brightness(0.9);
 }
 
+/* Home Slide */
+.gif-background {
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.gif-background img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.gif-background.home img {
+  opacity: 0.25;
+}
+
+.gif-background.mision img {
+  opacity: 0.95;
+}
+
+.gif-background.contact img {
+  opacity: 0.25;
+}
+
+.gif-background.final-page img {
+  opacity: 0.55;
+}
+
+.projects {
+  height: 100%;
+  display: flex;
+}
+.projects-container {
+  width: 80%;
+  height: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 20%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0.2rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+}
+
+.project .project-name {
+  font-weight: 300;
+}
+
+.project .project-logos {
+  margin-top: 0.4rem;
+  height: 130px;
+  visibility: hidden;
+}
+
+.project .project-logos .project-logo {
+  height: 80px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project.show {
+  height: 150px;
+}
+
+.project.show .project-logos {
+  visibility: visible;
+}
+
+.projects-second-line,
+.projects-first-line {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.projects-first-line {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 560px) {
+  .projects-second-line,
+  .projects-first-line {
+    width: 48%;
+    display: block;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .projects-second-line {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .reveal .whatwedo {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .reveal .whatwedo .moon {
+    right: 0;
+    opacity: 0.1;
+    position: absolute;
+  }
+
+  .reveal .whatwedo .info {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .reveal .whatwedo h3 {
+    text-align: center;
+  }
+}
