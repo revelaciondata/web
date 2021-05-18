@@ -638,7 +638,6 @@ section.has-light-background h6 {
     justify-content: flex-end;
     align-items: stretch;
     height: 100%;
-    background: #16171d;
   }
 
   .reveal .whatwedo .moon {
@@ -656,23 +655,26 @@ section.has-light-background h6 {
     margin: 0;
     padding: 0;
     display: block;
+    object-fit: cover;
   }
 
   .reveal .whatwedo .info {
-    padding: 5rem 0;
     width: 50%;
     z-index: 1;
     margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .reveal .whatwedo h3 {
     font-size: 16px;
-    text-align: left;
     font-style: normal;
     font-weight: 200;
     letter-spacing: 0.3em;
     line-height: 25px;
     margin-top: 10%;
+    text-align: justify;
   }
 
   .reveal .whatwedo .blackmark {
@@ -774,8 +776,9 @@ section.has-light-background h6 {
   }
 
   .reveal .whatwedo {
-    width: 60%;
-    margin-left: 4%;
+    /* width: 60%; */
+    /* margin-left: 4%; */
+    background: #16171d;
   }
 
   .reveal .whatwedo h3 {
@@ -888,10 +891,10 @@ section.has-light-background h6 {
     border-radius: 50%;
   }
 
-  .reveal .whatwedo {
+  /* .reveal .whatwedo {
     width: 60%;
     margin-left: 4%;
-  }
+  } */
 
   .reveal .whatwedo h3 {
     font-size: 20px;
@@ -1155,7 +1158,7 @@ section.has-light-background h6 {
   }
 
   .reveal .whatwedo .info {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -1163,6 +1166,6 @@ section.has-light-background h6 {
   }
 
   .reveal .whatwedo h3 {
-    text-align: center;
+    text-align: justify;
   }
 }
