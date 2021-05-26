@@ -491,6 +491,7 @@ section.has-light-background h6 {
   }
   .reveal .profile .avatar {
     width: 70px;
+    height: 70px;
     border-radius: 50%;
   }
 
@@ -571,6 +572,7 @@ section.has-light-background h6 {
   }
   .reveal .profile .avatar {
     width: 80px;
+    height: 80px;
     border-radius: 50%;
     border: 16px solid rgba(196, 196, 196, 0.4);
   }
@@ -630,6 +632,7 @@ section.has-light-background h6 {
 
   .reveal .profile .avatar {
     width: 128px;
+    height: 128px;
     border-radius: 50%;
   }
 
@@ -772,6 +775,7 @@ section.has-light-background h6 {
 
   .reveal .profile .avatar {
     width: 156px;
+    height: 156px;
     border-radius: 50%;
   }
 
@@ -888,6 +892,7 @@ section.has-light-background h6 {
 
   .reveal .profile .avatar {
     width: 156px;
+    height: 156px;
     border-radius: 50%;
   }
 
