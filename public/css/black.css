@@ -628,6 +628,7 @@ section.has-light-background h6 {
     flex-grow: 1;
     flex-basis: 24%;
     min-width: 120px;
+    height: 250px;
   }
 
   .reveal .profile .avatar {
